@@ -8,6 +8,11 @@ end
 
     resources :posts
   end
+
+  namespace :account do
+    recources :groups
+  end
+  
   root 'groups#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
